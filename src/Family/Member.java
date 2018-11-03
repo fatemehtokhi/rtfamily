@@ -6,8 +6,10 @@ import java.util.*;
 public class Member {
 	private static Scanner inputFromUser;
 	private static Scanner inputwords;
-
+	
+	// main method
 	public static void main(String args[]) throws FileNotFoundException {
+		// input name
 		System.out.println("Enter a name of Member :");
 		inputFromUser = new Scanner(System.in);
 		inputwords = new Scanner(System.in);
@@ -37,7 +39,6 @@ public class Member {
 		inputwords = new Scanner(System.in);
 		int age = inputwords.nextInt();
 		System.out.println(age);
-
 		
 		CSV csv = new CSV(name, lastname, food, hobby, age);
 
