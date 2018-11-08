@@ -8,7 +8,7 @@ public class Member {
 	private static Scanner inputwords;
 	
 	// main method
-	public static void main(String args[]) throws FileNotFoundException {
+	public void addMember() throws FileNotFoundException {
 		// input name
 		System.out.println("Enter a name of Member :");
 		inputFromUser = new Scanner(System.in);
