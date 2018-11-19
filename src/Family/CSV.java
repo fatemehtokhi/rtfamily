@@ -18,8 +18,8 @@ public class CSV {
 
 	CSV(String name, String lname, String food, String hobby, int age) throws FileNotFoundException {
 		// (new FileOutputStream( new File("persons.txt")
-		File f = new File("test.csv");
-		PrintWriter pw = new PrintWriter(new FileOutputStream(f, true));
+		File f = new File("test.csv");// here we have a object from file.File (Path or name of file that we create)
+		PrintWriter pw = new PrintWriter(new FileOutputStream(f, true));// class PrintWriter takes input and then transfers to file.in This program our file is object "f".
 
 		StringBuilder sb = new StringBuilder();
 
@@ -64,6 +64,7 @@ public class CSV {
 				resultRow = line;
 				break;
 			}
+			
 		}
 		br.close();
 		System.out.println(resultRow);
