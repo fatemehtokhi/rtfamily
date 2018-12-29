@@ -47,34 +47,27 @@ public class Run {
 				 System.out.println("Enter your name ");
 				 String name = inputwords.next();
 				 s.search(0,name);
-				 
-				 
-				
-			}
-			else if (input == 1) {
+			}else if (input == 1) {
 				 System.out.println("Enter your lastname ");
 				 String lname = inputwords.next();
 				s.search(1, lname);
 							
-			}
-			else if (input == 2) {
+			}else if (input == 2) {
 				 System.out.println("Enter your food");
 				 String food = inputwords.next();
 				 s.search(2, food);
 				
-			}
-			else if (input == 3) {
+			}else if (input == 3) {
 				 System.out.println("Enter your hobby ");
 				 String hobby = inputwords.next();
 				s.search(3, hobby);
 				
-			}
-			else if (input == 4) {
+			/*}else if (input == 4) {
 				 System.out.println("Enter your age ");
-				 String age= inputwords.next();
+				 int age= inputwords.nextInt();
 				s.search(4, age);
 				
-			}
+			*/}
 			
 		
 		}
